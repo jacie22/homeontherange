@@ -1,1 +1,74 @@
-Jacie 1st Page
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta name="author" content="Jacie Palmer" >
+    <meta name="description" content="Jacie's Assignments for WDD 230" >
+
+    <meta property="og:title" content="Jacie's Assignments for WDD 230" >
+    <meta property="og:type" content="website" >
+    <meta property="og:url" content="https://jacie22.github.io/wdd230/" >
+    <meta property="og:image" content="https://raw.githubusercontent.com/jacie22/wdd230/main/home.JPG">
+
+    <link rel="stylesheet" href="styles/normalize.css" >
+    <link rel="stylesheet" href="styles/base.css" >
+    <link rel="stylesheet" href="styles/medium.css" >
+    <link rel="stylesheet" href="styles/larger.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap">
+    <link rel="icon" href="favicon.ico" >
+
+    <title>Jacie - WDD 230 - Web Frontend Development</title>
+
+  </head>
+  <body>
+    <header>
+      <img src="images/jacie3.png" alt="jacie's face" >
+      <h1>Jacie Palmer</h1>
+      <div id="mode">Dark Mode ⚫</div>
+    </header>
+
+    <nav>
+      <button onclick="toggleMenu()"> Menu </button>
+      <ul class = "primaryNav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Chamber</a></li>
+        <li><a href="#">Site Plan</a></li>
+        <li><a href="#">Form</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2>Welcome Jacie</h2>
+      <div class="card">
+        
+      </div>
+      <div class="card">
+        <h3>Information</h3>
+        <div class="weather">
+          <p>The current temperature in Silverton, Oregon is <span id="current-temp"></span></p>
+            <figure>
+              <img id="weather-icon" src="" alt="">
+              <figcaption></figcaption>
+            </figure>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy;<span id="yr"></span> | Jace Palmer | Underland</p>
+      <p>Last Modified: <span id="lm"></span></p>
+      <script src="scripts/getDate.js"></script>
+      <script src="scripts/weather.js"></script>
+      <script src="scripts/links.js"></script>
+      <script src="scripts/form.js"></script>
+      <script src="scripts/darkmode.js"></script>
+      <script src="scripts/burger.js"></script>
+
+    </footer>
+  </body>
+</html>
+
