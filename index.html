@@ -34,31 +34,26 @@
       <button onclick="toggleMenu()"> Menu </button>
       <ul class = "primaryNav">
         <li><a href="#">Home</a></li>
-        <li><a href="#">Chamber</a></li>
-        <li><a href="#">Site Plan</a></li>
-        <li><a href="#">Form</a></li>
+        <li><a href="https://www.byui.edu/canvas-authentication/">Canvas</a></li>
       </ul>
     </nav>
 
     <main>
-        <h2>Today is <id="tOday"></span></h2>
+        <h2>Today is <id="tOday"></h2>
+
       <div class="card">
-        <h3>Weather</h3>
-        <div class="weather">
-          <p>The current temperature in Silverton, Oregon is <span id="current-temp"></span></p>
-            <figure>
-              <img id="weather-icon" src="" alt="">
-              <figcaption></figcaption>
-            </figure>
-        </div>
+        <a class="weatherwidget-io" href="https://forecast7.com/en/40d20n77d20/carlisle/?unit=us" data-label_1="CARLISLE" data-label_2="WEATHER" data-font="Open Sans Condensed" data-theme="beige" >CARLISLE WEATHER</a>
       </div>
+
       <div class="card">
         <div data-tockify-component="mini" data-tockify-calendar="jaciep"></div>
         <script data-cfasync="false" data-tockify-script="embed" src="https://public.tockify.com/browser/embed.js"></script>
       </div>
+
       <div class="card">
         <img src="train.jpg">
       </div>
+      
     </main>
 
     <footer>
