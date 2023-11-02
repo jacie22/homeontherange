@@ -2,10 +2,9 @@
 body {
     font-family:'Libre Bodoni', serif;
     display: grid;
-    
-   
     row-gap: 10px;
     align-content: center;
+    background-color: rgb(24, 25, 26);
     
 }
 h2 {
@@ -16,7 +15,7 @@ h3 {
 }
 /********** Navigation **********/
 nav {
-    background-color: #0f396b;
+    
     color: #faf3dd;
     text-decoration: none;
     text-align: center; 
@@ -36,9 +35,7 @@ nav ul {
 	list-style-type: none;
     flex: 1 1 auto;
 }
-nav a:hover {
-	background-color: rgb(12, 17, 56);
-}
+
 
 
 
@@ -64,7 +61,7 @@ nav button {
 header {
     color: #faf3dd;
     font-family:'Libre Bodoni', serif;
-    background-color: #0f396b;
+    
     text-align: center;
     margin: 5px; 
     padding: .5em;
@@ -98,7 +95,7 @@ img {
 }
 
  main {
-    background-color: #faf3dd;
+    background-color: hsl(240, 1%, 33%);
     color: black;
  }
 
@@ -168,7 +165,7 @@ form label.top input:required:valid {
 footer {
     color: #faf3dd;
     font-family:'Libre Bodoni', serif;
-    background-color: #0f396b;
+    
     text-align: center;
     padding: .5em;
     border-radius: 0em 0em .5em .5em ;
