@@ -26,9 +26,8 @@
   </head>
   <body>
     <header>
-      <img src="images/jacie3.png" alt="jacie's face" >
-      <h1>Jacie Palmer</h1>
-      <div id="mode">Dark Mode ⚫</div>
+    <h1>Welcome, Jacie</h1>
+      
     </header>
 
     <nav>
@@ -42,12 +41,9 @@
     </nav>
 
     <main>
-      <h2>Welcome Jacie</h2>
+        <h2>Today is <id="tOday"></span></h2>
       <div class="card">
-        
-      </div>
-      <div class="card">
-        <h3>Information</h3>
+        <h3>Weather</h3>
         <div class="weather">
           <p>The current temperature in Silverton, Oregon is <span id="current-temp"></span></p>
             <figure>
@@ -55,6 +51,13 @@
               <figcaption></figcaption>
             </figure>
         </div>
+      </div>
+      <div class="card">
+        <div data-tockify-component="mini" data-tockify-calendar="jaciep"></div>
+        <script data-cfasync="false" data-tockify-script="embed" src="https://public.tockify.com/browser/embed.js"></script>
+      </div>
+      <div class="card">
+        <img src="train.jpg">
       </div>
     </main>
 
@@ -65,7 +68,6 @@
       <script src="scripts/weather.js"></script>
       <script src="scripts/links.js"></script>
       <script src="scripts/form.js"></script>
-      <script src="scripts/darkmode.js"></script>
       <script src="scripts/burger.js"></script>
 
     </footer>

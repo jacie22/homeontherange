@@ -1,0 +1,175 @@
+
+body {
+    font-family:'Libre Bodoni', serif;
+    display: grid;
+    max-width: 75%;
+    margin: auto;
+    row-gap: 10px;
+    align-content: center;
+    
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+/********** Navigation **********/
+nav {
+    background-color: #0f396b;
+    color: #faf3dd;
+    text-decoration: none;
+    text-align: center; 
+    display: flex; 
+    flex-direction: column;
+    padding: .5em;
+    line-height: 1.7em;
+    margin: 4px;
+}
+nav ul li a {
+    color: #faf3dd; 
+    text-decoration: none;
+    display: block; 
+    
+}
+nav ul {
+	list-style-type: none;
+    flex: 1 1 auto;
+}
+nav a:hover {
+	background-color: rgb(12, 17, 56);
+}
+
+
+
+nav button {
+    background: transparent;
+    font-size: 1rem;
+    color:  #faf3dd;
+}
+.primaryNav {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.primaryNav li {
+    display: none;
+}
+.responsive li {
+    display: block;
+}
+
+/********** Header **********/
+header {
+    color: #faf3dd;
+    font-family:'Libre Bodoni', serif;
+    background-color: #0f396b;
+    text-align: center;
+    margin: 5px; 
+    padding: .5em;
+    border-radius: .5em .5em 0em 0em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#mode {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	font-size: 18px;
+	cursor: pointer;
+    background-color: #faf3dd;
+    border-radius: 1px;
+    border-bottom: black;
+    color: black;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    margin: 10px;
+    max-width: 350px;
+    border-radius: .5em;
+    grid-column: 1;
+}
+
+ main {
+    background-color: #faf3dd;
+    color: black;
+ }
+
+
+
+
+
+
+
+/********** Form **********/
+
+
+ form fieldset{
+    margin: 2rem 0;
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: #445ba9;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+form label.top, 
+form div {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .8rem;
+}
+form label.top input, 
+form label.top select{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+form input.submitBtn {
+    border: none;
+    background-color: #9c2c13;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+
+/********** Footer **********/
+footer {
+    color: #faf3dd;
+    font-family:'Libre Bodoni', serif;
+    background-color: #0f396b;
+    text-align: center;
+    padding: .5em;
+    border-radius: 0em 0em .5em .5em ;
+}
